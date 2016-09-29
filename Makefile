@@ -46,7 +46,7 @@ InfoClr     = \033[01;33m
 ResultClr   = \033[01;32m
 ResetClr    = \033[0m
 
-BuildCmdConfig = -configuration $(Configuration) CONFIGURATION_BUILD_DIR=$(CompileOutputPath)
+BuildCmdConfig = -configuration $(Configuration) TARGET_BUILD_DIR=$(CompileOutputPath)
 
 
 ifneq ($(Workspace),)
